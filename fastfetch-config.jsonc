@@ -1,0 +1,118 @@
+{
+  "$schema": "https://github.com",
+  "logo": {
+    "type": "small",
+    "color": {
+      "1": "blue",
+      "2": "white"
+    },
+    "padding": {
+      "top": 2,
+      "left": 2
+    }
+  },
+  "display": {
+    "separator": " ➜ ",
+    "color": {
+      "keys": "cyan",
+      "title": "blue"
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "cyan",
+        "at": "white",
+        "host": "blue"
+      }
+    },
+    {
+      "type": "custom",
+      "format": "┌─────────────────────────────────────────┐"
+    },
+    {
+      "type": "custom",
+      "key": "  OS      ",
+      "keyColor": "blue",
+      "format": "Fedora Workstation 44"
+    },
+    {
+      "type": "kernel",
+      "key": "  Kernel  ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "uptime",
+      "key": "  Uptime  ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "disk",
+      "key": "  OS Age  ",
+      "keyColor": "blue",
+      "folders": "/",
+      "format": "{days} days"
+    },
+    {
+      "type": "packages",
+      "key": "  Packages",
+      "keyColor": "blue",
+      "format": "{all}"
+    },
+    {
+      "type": "custom",
+      "format": "├─────────────────────────────────────────┤"
+    },
+    {
+      "type": "de",
+      "key": "  Desktop ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "terminal",
+      "key": "  Terminal",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "shell",
+      "key": "  Shell   ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "custom",
+      "format": "├─────────────────────────────────────────┤"
+    },
+    {
+      "type": "cpu",
+      "key": "  CPU     ",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "gpu",
+      "key": "  GPU     ",
+      "keyColor": "magenta",
+      "format": "{name}"
+    },
+    {
+      "type": "memory",
+      "key": "  Memory  ",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "disk",
+      "key": "  Storage ",
+      "keyColor": "magenta",
+      "format": "{size-used} / {size-total} ({size-percentage})"
+    },
+    {
+      "type": "custom",
+      "format": "└─────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}
