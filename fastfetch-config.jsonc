@@ -29,13 +29,13 @@
     },
     {
       "type": "custom",
-      "format": "┌─────────────────────────────────────────┐"
+      "format": "┌────────────────────────────────linux────┐"
     },
     {
       "type": "custom",
       "key": "  OS      ",
       "keyColor": "blue",
-      "format": "Fedora Workstation 44"
+      "format": "Fedora GNU/Linux 45"
     },
     {
       "type": "kernel",
